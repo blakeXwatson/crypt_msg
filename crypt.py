@@ -230,7 +230,7 @@ def main():
     
     else:
       print 'command not found: ' + cmd + '\n'
-      print_help
+      print_help()
 
 
 try:
