@@ -14,11 +14,17 @@ DEPENDENCIES:
                                      COMMANDS
 
 help -- display commands
+
 listen -- listen for incoming connection
+
 connect <host ip> -- connect to host <host ip>
+
 ping <ip> -- ping target <ip>
+
 ip -- show current lan ip
+
 setip <ip> -- set ip to listen on
+
 quit -- exit program
   
   
