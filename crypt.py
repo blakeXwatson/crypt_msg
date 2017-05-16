@@ -20,7 +20,7 @@ PADDING='{'
 pad = lambda s: s + (BLOCK_SIZE - len(s) % BLOCK_SIZE) * PADDING
 EncodeAES = lambda c, s: base64.b64encode(c.encrypt(pad(s)))
 DecodeAES = lambda c, e: c.decrypt(base64.b64decode(e)).rstrip(PADDING)
-IP = socket.gethostbyname(socket.gethostname())
+IP = 0.0.0.0#socket.gethostbyname(socket.gethostname())
 
 
 def get_lan_ip():
